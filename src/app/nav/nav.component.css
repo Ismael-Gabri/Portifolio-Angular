@@ -1,0 +1,40 @@
+nav{
+    position: relative;
+    left: 1300px;
+    height: auto;
+    width: 90px;
+    min-width: 590px;
+    margin-top: 37px;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    font-family:'poppins', sans-serif;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a::after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover::after{
+    width: 100%;
+}
+
+.logo{
+    top: -30px;
+    min-width: 100px;
+    display: flex;
+    position: relative;
+    right: 1280px;
+    color: white;
+}

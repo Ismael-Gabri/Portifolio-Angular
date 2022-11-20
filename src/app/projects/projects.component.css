@@ -1,0 +1,42 @@
+h1{
+    color: white;
+    font-family:'poppins', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+ul{
+    position: relative;
+    top: 50px;
+    left: -130px;
+    font-size: 20px;
+    min-width: 170px;
+}
+
+span{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.project{
+    display: inline-block;
+    padding: 10px;
+    color: #ff3c78;
+    border: 2px solid #ff3c78;
+    font-family:'poppins', sans-serif;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    left: 1050px;
+    top: -100px;
+}
