@@ -1,42 +1,58 @@
-h1{
-    color: white;
-    font-family:'poppins', sans-serif;
-    letter-spacing: 0.5px;
-    font-size: 30px;
-    margin-left: 6px;
-    margin-top: 6px;
+.project{
+    position: relative;
+    top: 240px;
+    left: 1070px;
 }
 
 ul{
     position: relative;
-    top: 50px;
-    left: -130px;
-    font-size: 20px;
-    min-width: 170px;
-}
-
-span{
-    color: white;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.project{
-    display: inline-block;
-    padding: 10px;
-    color: #ff3c78;
-    border: 2px solid #ff3c78;
+    transform: skew(15deg);
     font-family:'poppins', sans-serif;
-    letter-spacing: 0.5px;
-    background-color: transparent;
-    border-radius: 10px;
-    width: 250px;
-    height: 300px;
+}
+ul li{
     position: relative;
-    display: flex;
-    left: 1050px;
-    top: -100px;
+    list-style: none;
+    width: 220px;
+    background: #3e3f46;
+    padding: 15px;
+    z-index: var(--i);
+    transition: 0.5s;
+}
+ul li:hover{
+    background: #33a3ee;
+    transform: translateX(-50px);
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.664);
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition: 0.5s;
+}
+ul li:hover a{
+    color: white;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: #2e3133;
+    transform-origin: right;
+    transform: skewY(45deg);
+}
+ul li::after{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #35383e;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
 }

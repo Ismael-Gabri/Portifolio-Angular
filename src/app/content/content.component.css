@@ -15,7 +15,7 @@
 }
 
 span{
-    color: #ff3c78;
+    color: #24dbf3;
 }
 
 a{
@@ -25,6 +25,7 @@ a{
 }
 
 .content{
+    height: 100px;
     position: relative;
     top: 600px;
     display: flex;
@@ -42,4 +43,27 @@ p{
     color: white;
     font-family:'poppins', sans-serif;
     font-size: 20px;
+}
+
+.btn{
+    position: absolute;
+    top: 93px;
+    left: 285px;
+    text-decoration: none;
+}
+.btn-1{
+    border-radius: 12px;
+    border: solid white;
+    padding: 10px;
+}
+
+.dev-image{
+    position: relative;
+    top: -675px;
+    left: -950px;
+}
+
+.dev-image img{
+    border-radius: 10px;
+    border: 5px solid white;
 }
