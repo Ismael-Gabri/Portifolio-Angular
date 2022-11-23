@@ -1,10 +1,12 @@
 nav{
-    position: relative;
+    position: fixed;
     left: 1280px;
-    height: auto;
-    width: 190px;
+    top: -40px;
+    height: 80px;
+    width: 200px;
     min-width: 592px;
     margin-top: 37px;
+    background-color: black;
 }
 a{
     position: relative;
@@ -14,7 +16,9 @@ a{
     margin-right: 50px;
     font-family:'poppins', sans-serif;
     letter-spacing: 0.5px;
+    top: 30px;
     padding: 0 10px;
+    background-color: black;
 }
 a::after{
     content: "";
@@ -31,10 +35,22 @@ a:hover::after{
 }
 
 .logo{
-    top: -30px;
+    top: 10px;
     min-width: 100px;
     display: flex;
     position: relative;
     right: 1175px;
     color: white;
+    background-color: black;
+}
+
+.dev-image{
+    position: fixed;
+    top: 20px;
+    left: 36px;
+}
+
+.dev-image img{
+    border-radius: 10px;
+    border: 5px solid white;
 }
