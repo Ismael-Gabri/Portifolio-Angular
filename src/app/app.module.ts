@@ -10,8 +10,7 @@ import { HomeComponent } from './Pages/home/home.component';
 import { CarrierComponent } from './Pages/carrier/carrier.component';
 import { RouterModule } from '@angular/router';
 import { CarrierContentComponent } from './carrier-content/carrier-content.component';
-import { AboutComponent } from './pages/about/about.component';
-import { ContactBottomComponent } from './contact-bottom/contact-bottom.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +21,7 @@ import { ContactBottomComponent } from './contact-bottom/contact-bottom.componen
     HomeComponent,
     CarrierComponent,
     CarrierContentComponent,
-    AboutComponent,
-    ContactBottomComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
