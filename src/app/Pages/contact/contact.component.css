@@ -225,13 +225,13 @@ ul li:hover:nth-child(4) a::before{
         width: 0;
     }
     to{
-        width: 5.6em;
+        width: 4.6em;
     }
 }
 
 @keyframes blinkCursor{
     from{
-        border-right-color: white;
+        border-right-color: #24dbf3;
     }
     to {
         border-right-color: transparent;
@@ -240,8 +240,22 @@ ul li:hover:nth-child(4) a::before{
 
 .title{
     position: relative;
-    top: 200px;
+    top: 170px;
     left: 600px;
 }
 
+.card-info{
+    position: relative;
+    top: 320px;
+    left: 130px;
+    height: 200px;
+    width: 1210px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.content{
+    position: relative;
+    top: -90px;
+}
 

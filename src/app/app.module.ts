@@ -9,7 +9,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './Pages/home/home.component';
 import { CarrierComponent } from './Pages/carrier/carrier.component';
 import { RouterModule } from '@angular/router';
-import { CarrierContentComponent } from './carrier-content/carrier-content.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
@@ -20,7 +19,6 @@ import { ContactComponent } from './pages/contact/contact.component';
     ProjectsComponent,
     HomeComponent,
     CarrierComponent,
-    CarrierContentComponent,
     ContactComponent,
   ],
   imports: [
